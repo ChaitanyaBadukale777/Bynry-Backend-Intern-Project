@@ -15,8 +15,6 @@ A Django-based web application to provide consumer services for gas utilities. T
 **Frontend**: HTML, CSS
 **Database**: SQLite (default Django database)
 
- Demo Video 📹:  https://www.youtube.com/watch?v=2xUiarIj14E 
-## Installation Instructions 📝
 
 Follow these steps to set up the project on your local system:
 
