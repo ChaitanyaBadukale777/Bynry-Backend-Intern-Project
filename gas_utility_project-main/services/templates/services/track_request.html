@@ -1,0 +1,6 @@
+<h2>Track Your Service Request</h2>
+<ul>
+    {% for request in service_requests %}
+        <li>{{ request.customer_name }} - {{ request.status }} (Submitted on: {{ request.created_at }})</li>
+    {% endfor %}
+</ul>

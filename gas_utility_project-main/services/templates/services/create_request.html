@@ -1,0 +1,6 @@
+<h2>Create a Service Request</h2>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}  <!-- This renders the form fields -->
+    <button type="submit">Submit Request</button>
+</form>
